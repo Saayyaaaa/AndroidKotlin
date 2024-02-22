@@ -17,6 +17,11 @@ class SecondActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivitySecondBinding.inflate(layoutInflater)
         setContentView(binding.root)
-    }
 
+        val result = intent.getStringExtra(KEY_RESULT)
+
+        binding.food2Title.text = result
+
+
+    }
 }
