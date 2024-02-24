@@ -6,6 +6,16 @@
     android:layout_height="match_parent"
     tools:context=".SecondActivity">
 
+    <ImageButton
+        android:id="@+id/back"
+        android:onClick="goBack"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/baseline_keyboard_arrow_down_24"
+        android:backgroundTint="@color/white"
+        android:background="@drawable/background_curve"
+        />
+
     <ImageView
         android:id="@+id/food2_image"
         android:layout_width="wrap_content"
@@ -38,5 +48,20 @@
         android:textSize="16sp"
         android:paddingStart="10dp"
         tools:text="Description" />
+
+    <Button
+        android:id="@+id/food2_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:paddingStart="10dp"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:gravity="bottom"
+        android:textAlignment="center"
+        android:backgroundTint="@color/orange"
+        tools:text="1000"
+        tools:ignore="RtlCompat" />
 
 </RelativeLayout>

@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    xmlns:tools="http://schemas.android.com/tools">
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
 
     <ImageView
-        android:id="@+id/food_image"
+        android:id="@+id/food_image2"
+
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="250dp"
         tools:srcCompat="@drawable/pizza1"
         android:padding="5dp"
         />
@@ -15,13 +17,14 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/food_image"
+        android:layout_below="@+id/food_image2"
         android:layout_marginEnd="20dp"
         android:layout_marginStart="20dp"
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/food_title"
+            android:id="@+id/food_title2"
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="20sp"
@@ -29,7 +32,8 @@
             tools:text="Avengers" />
 
         <TextView
-            android:id="@+id/food_description"
+            android:id="@+id/food_description2"
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingTop="5dp"
@@ -47,7 +51,7 @@
             tools:ignore="RtlHardcoded">
 
             <TextView
-                android:id="@+id/food_price"
+                android:id="@+id/food_price2"
                 android:layout_width="90dp"
                 android:layout_height="match_parent"
                 android:padding="5dp"

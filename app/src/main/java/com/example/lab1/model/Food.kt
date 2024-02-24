@@ -1,5 +1,6 @@
 package com.example.lab1.model
 
+import java.io.Serializable
 import java.util.UUID
 
 data class Food(
@@ -8,5 +9,6 @@ data class Food(
     val description: String,
     val imageRes: Int,
     val price: String,
-    val size: String
-)
+    val size: String,
+    val boolVal: Boolean
+):Serializable
